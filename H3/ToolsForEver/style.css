@@ -1,0 +1,32 @@
+html {
+    font-family: Calibri;
+}
+
+#content {
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#name {
+    text-align: end;
+    float: right;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    grid-template-rows: repeat(2, max-content);
+
+    width: max-content;
+
+
+    background-color: lightgray;
+}
+
+.product > p {
+    padding: 2px 5px;
+    margin: 0;
+
+    border: 1px solid black;
+}
