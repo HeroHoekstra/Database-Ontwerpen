@@ -1,7 +1,7 @@
 <?php
 try {
     $user = "flower_power";
-    $pass = "PowerFlower";
+    $pass = "power_flower";
 
     $dbh = new PDO('mysql:host=localhost;dbname=flower_power', $user, $pass);
 } catch (PDOException $e) {

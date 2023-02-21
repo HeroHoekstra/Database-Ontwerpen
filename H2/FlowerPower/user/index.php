@@ -42,5 +42,8 @@ include '../connect.php';
         </form>
         "
         ?>
+
+        <br>
+        <a href="../">Home</a>
     </body>
 </html>

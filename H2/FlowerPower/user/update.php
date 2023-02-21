@@ -20,4 +20,4 @@ if (isset($_POST['update'])) {
     $query->execute();
 
     exit();
-} else if ()
+}
