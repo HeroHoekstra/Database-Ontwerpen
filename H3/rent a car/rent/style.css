@@ -1,0 +1,32 @@
+.car {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 5px;
+}
+
+.car_table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    width: 500px;
+
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.car_table > p {
+    padding: 5px;
+    margin: 0;
+    border: solid black 1px;
+}
+
+.rented_cars_table {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+}
+
+.rented_cars_table > p {
+    padding: 5px;
+    margin: 0;
+    border: solid black 1px;
+}

@@ -1,0 +1,21 @@
+.add_employee_table {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+}
+
+.add_employee_table > p {
+    margin: 0;
+    padding: 5px;
+    border: solid black 1px;
+}
+
+.cars {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+}
+
+.cars > p {
+    margin: 0;
+    padding: 5px;
+    border: solid black 1px;
+}
